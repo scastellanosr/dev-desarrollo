@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KizLUBJe3w1Gft6Hqn0Oz4tYps0/95rxLMlxaZ+yGVaZtmV+uPxk+6ejjH6sQma2hWiJh0fXx7KW5D/sbLD0+w==",
+  "success": true,
+  "projectFilePath": "D:\\IaaDevOps\\IaaDevOps\\dev-desarrollo\\ApiTest\\IaaDevOps\\IaaDevOps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scastellanos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
