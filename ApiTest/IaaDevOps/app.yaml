@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ApiTest
+spec:
+  destination:
+    name: ''
+    namespace: Desarrollo
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: ApiTest/IaaDevOps
+    repoURL: 'https://github.com/scastellanosr/dev-desarrollo'
+    targetRevision: HEAD
+  project: default
+  syncPolicy:
+    automated:
+      prune: false
+      selfHeal: false
